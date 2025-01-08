@@ -9,6 +9,7 @@ from openai import OpenAI
 import re
 import string
 import requests
+import numpy
 
 import tiktoken
 
