@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b280526a-9f80-49a4-8e37-9f9bc93cb672" name="更改" comment="fdfd" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/my-repo/llm" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Jessica217&quot;
+  }
+}</component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="214da915-9254-4470-9716-9e270b708f88" />
+  </component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:Jessica217/llm.git&quot;,
+    &quot;accountId&quot;: &quot;214da915-9254-4470-9716-9e270b708f88&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2oW0vTY4drTYxx6aA24QDp15C6p" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python 测试.Python 测试 (test_001.py 内).executor&quot;: &quot;Run&quot;,
+    &quot;Python.001_API.executor&quot;: &quot;Run&quot;,
+    &quot;Python.111.executor&quot;: &quot;Run&quot;,
+    &quot;Python.How to use a time-weighted vector store retriever.executor&quot;: &quot;Run&quot;,
+    &quot;Python.How to use a vectorstore as a retriever(1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.Reranker.executor&quot;: &quot;Run&quot;,
+    &quot;Python.__init__ (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.__init__.executor&quot;: &quot;Run&quot;,
+    &quot;Python.apapter_merge_and_save.executor&quot;: &quot;Run&quot;,
+    &quot;Python.app.executor&quot;: &quot;Run&quot;,
+    &quot;Python.back2cpe.executor&quot;: &quot;Run&quot;,
+    &quot;Python.batch_insert.executor&quot;: &quot;Run&quot;,
+    &quot;Python.calculate_api_token.executor&quot;: &quot;Run&quot;,
+    &quot;Python.category.executor&quot;: &quot;Run&quot;,
+    &quot;Python.convert_data.executor&quot;: &quot;Run&quot;,
+    &quot;Python.convert_jsonl2formatted.executor&quot;: &quot;Run&quot;,
+    &quot;Python.cpe2json.executor&quot;: &quot;Run&quot;,
+    &quot;Python.data_loader.executor&quot;: &quot;Run&quot;,
+    &quot;Python.data_pre.executor&quot;: &quot;Run&quot;,
+    &quot;Python.data_preparation (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.data_preparation.executor&quot;: &quot;Run&quot;,
+    &quot;Python.del_gpt_info.executor&quot;: &quot;Run&quot;,
+    &quot;Python.del_gpt_json.executor&quot;: &quot;Run&quot;,
+    &quot;Python.evaluate_result_use_qwen72B.executor&quot;: &quot;Run&quot;,
+    &quot;Python.filter_false_file.executor&quot;: &quot;Run&quot;,
+    &quot;Python.finetune_Shanghai_AI_Laboratory_SafeMTData.executor&quot;: &quot;Run&quot;,
+    &quot;Python.finetune_input.executor&quot;: &quot;Run&quot;,
+    &quot;Python.gradio_demo (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.gradio_demo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.gradio_demo2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.gradio_demo3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.gradio_show_data.executor&quot;: &quot;Run&quot;,
+    &quot;Python.gradio_test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.gradio_web_server.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hello.executor&quot;: &quot;Run&quot;,
+    &quot;Python.insert.executor&quot;: &quot;Run&quot;,
+    &quot;Python.insert_vip_vuln_data_to_clickhous.executor&quot;: &quot;Run&quot;,
+    &quot;Python.json2jsonl.executor&quot;: &quot;Run&quot;,
+    &quot;Python.json2vector.executor&quot;: &quot;Run&quot;,
+    &quot;Python.llm_cpe2json.executor&quot;: &quot;Run&quot;,
+    &quot;Python.llm_json2embbeding.executor&quot;: &quot;Run&quot;,
+    &quot;Python.make_ft_data.executor&quot;: &quot;Run&quot;,
+    &quot;Python.milvus_connect (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.milvus_connect.executor&quot;: &quot;Run&quot;,
+    &quot;Python.milvus_connect_v2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.new.executor&quot;: &quot;Run&quot;,
+    &quot;Python.new_glm4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.nginx.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ollama_api.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ollama_t1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.open_api_demo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.open_api_new.executor&quot;: &quot;Run&quot;,
+    &quot;Python.openai_api_key(1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.openai_api_key(3).executor&quot;: &quot;Run&quot;,
+    &quot;Python.openai_api_key(5).executor&quot;: &quot;Run&quot;,
+    &quot;Python.openai_api_key.executor&quot;: &quot;Run&quot;,
+    &quot;Python.plot_loss.executor&quot;: &quot;Run&quot;,
+    &quot;Python.plot_loss2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.prompt(1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.qwen_api_demo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.qwen_cpe.executor&quot;: &quot;Run&quot;,
+    &quot;Python.qwen_cpe_14 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.qwen_cpe_72 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.qwen_cpe_72.executor&quot;: &quot;Run&quot;,
+    &quot;Python.random_selection.executor&quot;: &quot;Run&quot;,
+    &quot;Python.re_cpe_from_llm_output.executor&quot;: &quot;Run&quot;,
+    &quot;Python.replace_name_author.executor&quot;: &quot;Run&quot;,
+    &quot;Python.results.executor&quot;: &quot;Run&quot;,
+    &quot;Python.similarity_search (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.similarity_search.executor&quot;: &quot;Run&quot;,
+    &quot;Python.single_translation.executor&quot;: &quot;Run&quot;,
+    &quot;Python.split_eng_chi.executor&quot;: &quot;Run&quot;,
+    &quot;Python.split_train_val.executor&quot;: &quot;Run&quot;,
+    &quot;Python.t1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.temp.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.threadpool_translate.executor&quot;: &quot;Run&quot;,
+    &quot;Python.token_benchmark_ray.executor&quot;: &quot;Profiler&quot;,
+    &quot;Python.use_fine_tuned_model.executor&quot;: &quot;Run&quot;,
+    &quot;Python.vip_cpe_vs_three_impacts.executor&quot;: &quot;Run&quot;,
+    &quot;Python.web_demo (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.web_demo (2).executor&quot;: &quot;Run&quot;,
+    &quot;Python.web_demo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.zhipuai_glm (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.zhipuai_glm.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.highlight.mappings&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.highlight.symlinks&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.show.date&quot;: &quot;false&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.show.permissions&quot;: &quot;false&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.show.size&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/PythonProject/pythonProject&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\PythonProject\pythonProject\API_KEY\API_KEY_repo" />
+      <recent name="D:\PythonProject\pythonProject\CLIP" />
+      <recent name="D:\PythonProject\pythonProject\Fine_tune\translate" />
+      <recent name="D:\PythonProject\pythonProject\LLM_Prompt_generate" />
+      <recent name="D:\PythonProject\pythonProject\Fine_tune\general_dataset" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\PythonProject\pythonProject\Fine_tune\general_dataset\raw_data" />
+      <recent name="D:\PythonProject\pythonProject\Fine_tune\general_dataset\filtered_data" />
+      <recent name="D:\PythonProject\pythonProject\Fine_tune\general_dataset" />
+      <recent name="D:\PythonProject\pythonProject\Fine_tune\translate" />
+      <recent name="D:\PythonProject\pythonProject\Fine_tune\sft" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.gradio_demo3">
+    <configuration name="finetune_input" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="wjy" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Fine_tune/sft" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Fine_tune/sft/finetune_input.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="gradio_demo3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="wjy" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RAG_VIP_VULN/gradio_show" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RAG_VIP_VULN/gradio_show/gradio_demo3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="hello" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="wjy" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/API_KEY" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/API_KEY/hello.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="openai_api_key(3)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="wjy" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/API_KEY" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/API_KEY/openai_api_key(3).py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="openai_api_key(5)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="wjy" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/API_KEY/ALL_API" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/API_KEY/ALL_API/openai_api_key(5).py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="wjy" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/API_KEY/ALL_API" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/API_KEY/ALL_API/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.finetune_input" />
+      <item itemvalue="Python.openai_api_key(5)" />
+      <item itemvalue="Python.gradio_demo3" />
+      <item itemvalue="Python.hello" />
+      <item itemvalue="Python.openai_api_key(3)" />
+      <item itemvalue="Python.test" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.gradio_demo3" />
+        <item itemvalue="Python.openai_api_key(5)" />
+        <item itemvalue="Python.hello" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.openai_api_key(3)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-PY-242.23726.102" />
+        <option value="bundled-python-sdk-5e1850174b45-399fe30bd8c1-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.23726.102" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="b280526a-9f80-49a4-8e37-9f9bc93cb672" name="更改" comment="" />
+      <created>1730970255947</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1730970255947</updated>
+      <workItem from="1730970259409" duration="629000" />
+      <workItem from="1730970906331" duration="244000" />
+      <workItem from="1730971169292" duration="1097000" />
+      <workItem from="1730972659181" duration="5813000" />
+      <workItem from="1730978551694" duration="247000" />
+      <workItem from="1730978811804" duration="1270000" />
+      <workItem from="1731030653046" duration="37030000" />
+      <workItem from="1731305524288" duration="5042000" />
+      <workItem from="1731310630113" duration="363000" />
+      <workItem from="1731311005492" duration="38000" />
+      <workItem from="1731311113784" duration="3200000" />
+      <workItem from="1731314352515" duration="153000" />
+      <workItem from="1731314514832" duration="10000" />
+      <workItem from="1731314531910" duration="26297000" />
+      <workItem from="1731397127353" duration="7013000" />
+      <workItem from="1731404368725" duration="60591000" />
+      <workItem from="1731894425418" duration="181000" />
+      <workItem from="1731894685625" duration="46966000" />
+      <workItem from="1732001982557" duration="193171000" />
+      <workItem from="1733121373988" duration="160075000" />
+      <workItem from="1734339730124" duration="59050000" />
+      <workItem from="1734682588162" duration="12005000" />
+      <workItem from="1735005512924" duration="172663000" />
+      <workItem from="1736302787962" duration="11128000" />
+      <workItem from="1736328140459" duration="3214000" />
+    </task>
+    <task id="LOCAL-00001" summary="fdfd">
+      <option name="closed" value="true" />
+      <created>1736229455298</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1736229455299</updated>
+    </task>
+    <task id="LOCAL-00002" summary="提交Hello">
+      <option name="closed" value="true" />
+      <created>1736236634306</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1736236634306</updated>
+    </task>
+    <task id="LOCAL-00003" summary="提交fast_api文件">
+      <option name="closed" value="true" />
+      <created>1736245226752</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1736245226753</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="59c27af3-a236-43cb-82b5-14237dfa360e" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="59c27af3-a236-43cb-82b5-14237dfa360e">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/API_KEY/ALL_API" />
+      <path value="$PROJECT_DIR$/LLaVA-Med/LLaVA-Med" />
+      <path value="C:/Program Files/Git/bin" />
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="fdfd" />
+    <MESSAGE value="提交Hello" />
+    <MESSAGE value="提交fast_api文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交fast_api文件" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Fine_tune/translate/__init__.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Fine_tune/translate/__init__.py</url>
+          <line>47</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/wjy$open_api_demo.coverage" NAME="open_api_demo 覆盖结果" MODIFIED="1731663252713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RAG_VIP_VULN/open_ai_demo" />
+    <SUITE FILE_PATH="coverage/wjy$cpe2json.coverage" NAME="cpe2json 覆盖结果" MODIFIED="1731394776899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RAG_VIP_VULN/llm" />
+    <SUITE FILE_PATH="coverage/wjy$category.coverage" NAME="category 覆盖结果" MODIFIED="1733815570849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Fine_tune/translate" />
+    <SUITE FILE_PATH="coverage/wjy$milvus_connect__1_.coverage" NAME="milvus_connect (1) 覆盖结果" MODIFIED="1731412661487" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RAG_VIP_VULN/milvus" />
+    <SUITE FILE_PATH="coverage/wjy$threadpool_translate.coverage" NAME="threadpool_translate 覆盖结果" MODIFIED="1732867953453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Fine_tune/translate" />
+    <SUITE FILE_PATH="coverage/wjy$similarity_search.coverage" NAME="similarity_search 覆盖结果" MODIFIED="1734335737199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RAG_VIP_VULN/milvus" />
+    <SUITE FILE_PATH="coverage/wjy$calculate_api_token.coverage" NAME="calculate_api_token 覆盖结果" MODIFIED="1734421806107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Fine_tune/translate" />
+    <SUITE FILE_PATH="coverage/wjy$hello.coverage" NAME="hello 覆盖结果" MODIFIED="1736147931687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/API_KEY" />
+    <SUITE FILE_PATH="coverage/wjy$apapter_merge_and_save.coverage" NAME="apapter_merge_and_save 覆盖结果" MODIFIED="1733797766646" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Fine_tune/translate" />
+    <SUITE FILE_PATH="coverage/wjy$How_to_use_a_time_weighted_vector_store_retriever.coverage" NAME="How to use a time-weighted vector store retriever Coverage Results" MODIFIED="1731031836526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/wjy$zhipuai_glm__1_.coverage" NAME="zhipuai_glm (1) 覆盖结果" MODIFIED="1731381390600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RAG_VIP_VULN/llm" />
+    <SUITE FILE_PATH="coverage/wjy$data_preparation__1_.coverage" NAME="data_preparation (1) Coverage Results" MODIFIED="1731049749312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RAG_Project" />
+    <SUITE FILE_PATH="coverage/wjy$test__1_.coverage" NAME="test (1) 覆盖结果" MODIFIED="1735095027541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/wjy$open_api_new.coverage" NAME="open_api_new 覆盖结果" MODIFIED="1734346422191" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RAG_VIP_VULN/llm" />
+    <SUITE FILE_PATH="coverage/wjy$del_gpt_info.coverage" NAME="del_gpt_info 覆盖结果" MODIFIED="1733127796719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Fine_tune/general_dataset" />
+    <SUITE FILE_PATH="coverage/wjy$openai_api_key_5_.coverage" NAME="openai_api_key(5) 覆盖结果" MODIFIED="1736241690392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/API_KEY/ALL_API" />
+    <SUITE FILE_PATH="coverage/wjy$vip_cpe_vs_three_impacts.coverage" NAME="vip_cpe_vs_three_impacts 覆盖结果" MODIFIED="1731322193186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RAG_VIP_VULN" />
+    <SUITE FILE_PATH="coverage/pythonProject$111.coverage" NAME="111 Coverage Results" MODIFIED="1730972417995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/wjy$gradio_show_data.coverage" NAME="gradio_show_data 覆盖结果" MODIFIED="1731926683229" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RAG_VIP_VULN/gradio_show" />
+    <SUITE FILE_PATH="coverage/wjy$ollama_api.coverage" NAME="ollama_api 覆盖结果" MODIFIED="1731658190942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RAG_VIP_VULN/open_ai_demo" />
+    <SUITE FILE_PATH="coverage/wjy$insert_vip_vuln_data_to_clickhous.coverage" NAME="insert_vip_vuln_data_to_clickhous 覆盖结果" MODIFIED="1731376675959" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RAG_VIP_VULN" />
+    <SUITE FILE_PATH="coverage/wjy$similarity_search__1_.coverage" NAME="similarity_search (1) 覆盖结果" MODIFIED="1731581183928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RAG_VIP_VULN/milvus" />
+    <SUITE FILE_PATH="coverage/wjy$insert.coverage" NAME="insert 覆盖结果" MODIFIED="1731549089822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RAG_VIP_VULN/milvus" />
+    <SUITE FILE_PATH="coverage/wjy$convert_jsonl2formatted.coverage" NAME="convert_jsonl2formatted 覆盖结果" MODIFIED="1733305740888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Fine_tune/replace" />
+    <SUITE FILE_PATH="coverage/wjy$qwen_cpe_14__1_.coverage" NAME="qwen_cpe_14 (1) 覆盖结果" MODIFIED="1731914170767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RAG_VIP_VULN/llm" />
+    <SUITE FILE_PATH="coverage/wjy$del_gpt_json.coverage" NAME="del_gpt_json 覆盖结果" MODIFIED="1733128654486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Fine_tune/general_dataset" />
+    <SUITE FILE_PATH="coverage/wjy$json2vector.coverage" NAME="json2vector 覆盖结果" MODIFIED="1731399088098" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RAG_VIP_VULN/llm" />
+    <SUITE FILE_PATH="coverage/wjy$llm_cpe2json.coverage" NAME="llm_cpe2json 覆盖结果" MODIFIED="1732001910151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RAG_VIP_VULN/gradio_show" />
+    <SUITE FILE_PATH="coverage/wjy$111.coverage" NAME="111 Coverage Results" MODIFIED="1730974630757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/wjy$filter_false_file.coverage" NAME="filter_false_file 覆盖结果" MODIFIED="1733197263443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Fine_tune/translate" />
+    <SUITE FILE_PATH="coverage/wjy$single_translation.coverage" NAME="single_translation 覆盖结果" MODIFIED="1733208922528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Fine_tune/translate" />
+    <SUITE FILE_PATH="coverage/wjy$convert_data.coverage" NAME="convert_data 覆盖结果" MODIFIED="1733715089004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Fine_tune/replace" />
+    <SUITE FILE_PATH="coverage/wjy$replace_name_author.coverage" NAME="replace_name_author 覆盖结果" MODIFIED="1733714728236" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Fine_tune/replace" />
+    <SUITE FILE_PATH="coverage/wjy$web_demo.coverage" NAME="web_demo 覆盖结果" MODIFIED="1735095301875" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Fine_tune/translate" />
+    <SUITE FILE_PATH="coverage/wjy$.coverage" NAME=" 覆盖结果" MODIFIED="1735538287970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/API_KEY" />
+    <SUITE FILE_PATH="coverage/wjy$001_API.coverage" NAME="001_API 覆盖结果" MODIFIED="1732173108492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/API_KEY/001 VIP_CPE数据存储接口" />
+    <SUITE FILE_PATH="coverage/wjy$openai_api_key.coverage" NAME="openai_api_key 覆盖结果" MODIFIED="1734346364244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LLM_Prompt_generate" />
+    <SUITE FILE_PATH="coverage/wjy$gradio_test.coverage" NAME="gradio_test 覆盖结果" MODIFIED="1731928630598" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RAG_VIP_VULN/gradio_show" />
+    <SUITE FILE_PATH="coverage/wjy$evaluate_result_use_qwen72B.coverage" NAME="evaluate_result_use_qwen72B 覆盖结果" MODIFIED="1731658617292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RAG_VIP_VULN/open_ai_demo" />
+    <SUITE FILE_PATH="coverage/wjy$ollama_t1.coverage" NAME="ollama_t1 覆盖结果" MODIFIED="1731325780530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RAG_VIP_VULN" />
+    <SUITE FILE_PATH="coverage/wjy$random_selection.coverage" NAME="random_selection 覆盖结果" MODIFIED="1733131226048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Fine_tune/general_dataset" />
+    <SUITE FILE_PATH="coverage/wjy$qwen_cpe.coverage" NAME="qwen_cpe 覆盖结果" MODIFIED="1731660928554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RAG_VIP_VULN/llm" />
+    <SUITE FILE_PATH="coverage/wjy$openai_api_key_3_.coverage" NAME="openai_api_key(3) 覆盖结果" MODIFIED="1736134405840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/API_KEY" />
+    <SUITE FILE_PATH="coverage/wjy$qwen_cpe_72__1_.coverage" NAME="qwen_cpe_72 (1) 覆盖结果" MODIFIED="1731914829535" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RAG_VIP_VULN/llm" />
+    <SUITE FILE_PATH="coverage/wjy$zhipuai_glm.coverage" NAME="zhipuai_glm 覆盖结果" MODIFIED="1734425823247" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RAG_VIP_VULN/llm" />
+    <SUITE FILE_PATH="coverage/wjy$__init__.coverage" NAME="__init__ 覆盖结果" MODIFIED="1733303171421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Fine_tune/translate" />
+    <SUITE FILE_PATH="coverage/wjy$t1.coverage" NAME="t1 覆盖结果" MODIFIED="1733110044626" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Fine_tune/translate" />
+    <SUITE FILE_PATH="coverage/wjy$Reranker.coverage" NAME="Reranker Coverage Results" MODIFIED="1731047853231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RAG_test" />
+    <SUITE FILE_PATH="coverage/wjy$web_demo__2_.coverage" NAME="web_demo (2) 覆盖结果" MODIFIED="1733712987860" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Fine_tune/translate" />
+    <SUITE FILE_PATH="coverage/wjy$plot_loss2.coverage" NAME="plot_loss2 覆盖结果" MODIFIED="1733712433571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Fine_tune/sft" />
+    <SUITE FILE_PATH="coverage/wjy$nginx.coverage" NAME="nginx 覆盖结果" MODIFIED="1734431431393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Fine_tune/translate" />
+    <SUITE FILE_PATH="coverage/wjy$json2jsonl.coverage" NAME="json2jsonl 覆盖结果" MODIFIED="1733281483895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Fine_tune/translate" />
+    <SUITE FILE_PATH="coverage/wjy$test.coverage" NAME="test 覆盖结果" MODIFIED="1736141706079" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/API_KEY/ALL_API" />
+    <SUITE FILE_PATH="coverage/wjy$back2cpe.coverage" NAME="back2cpe 覆盖结果" MODIFIED="1735292014008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/API_KEY/ALL_API" />
+    <SUITE FILE_PATH="coverage/wjy$gradio_demo2.coverage" NAME="gradio_demo2 覆盖结果" MODIFIED="1735885292632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RAG_VIP_VULN/gradio_show" />
+    <SUITE FILE_PATH="coverage/wjy$milvus_connect.coverage" NAME="milvus_connect 覆盖结果" MODIFIED="1731403190516" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RAG_VIP_VULN/llm" />
+    <SUITE FILE_PATH="coverage/wjy$batch_insert.coverage" NAME="batch_insert 覆盖结果" MODIFIED="1731566193486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RAG_VIP_VULN/milvus" />
+    <SUITE FILE_PATH="coverage/wjy$prompt_1_.coverage" NAME="prompt(1) 覆盖结果" MODIFIED="1732168995324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RAG_VIP_VULN" />
+    <SUITE FILE_PATH="coverage/wjy$finetune_input.coverage" NAME="finetune_input 覆盖结果" MODIFIED="1732704365460" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Fine_tune/sft" />
+    <SUITE FILE_PATH="coverage/wjy$How_to_use_a_vectorstore_as_a_retriever_1_.coverage" NAME="How to use a vectorstore as a retriever(1) Coverage Results" MODIFIED="1731031896239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/wjy$temp.coverage" NAME="temp Coverage Results" MODIFIED="1730978906321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/wjy$plot_loss.coverage" NAME="plot_loss 覆盖结果" MODIFIED="1733796098533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Fine_tune/sft" />
+    <SUITE FILE_PATH="coverage/wjy$data_pre.coverage" NAME="data_pre 覆盖结果" MODIFIED="1731318195168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RAG_VIP_VULN" />
+    <SUITE FILE_PATH="coverage/wjy$__init____1_.coverage" NAME="__init__ (1) 覆盖结果" MODIFIED="1732169899227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/API_KEY" />
+    <SUITE FILE_PATH="coverage/wjy$app.coverage" NAME="app Coverage Results" MODIFIED="1731054867076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RAG_Project" />
+    <SUITE FILE_PATH="coverage/wjy$make_ft_data.coverage" NAME="make_ft_data 覆盖结果" MODIFIED="1733381452450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Fine_tune/translate" />
+    <SUITE FILE_PATH="coverage/wjy$data_preparation.coverage" NAME="data_preparation Coverage Results" MODIFIED="1731038481374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/wjy$gradio_demo__1_.coverage" NAME="gradio_demo (1) 覆盖结果" MODIFIED="1731923835865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RAG_VIP_VULN/gradio_show" />
+    <SUITE FILE_PATH="coverage/wjy$llm_json2embbeding.coverage" NAME="llm_json2embbeding 覆盖结果" MODIFIED="1731997228681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RAG_VIP_VULN/gradio_show" />
+    <SUITE FILE_PATH="coverage/wjy$gradio_demo.coverage" NAME="gradio_demo 覆盖结果" MODIFIED="1731917580757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RAG_VIP_VULN/open_ai_demo" />
+    <SUITE FILE_PATH="coverage/wjy$data_loader.coverage" NAME="data_loader 覆盖结果" MODIFIED="1735093740183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GAT-master/data" />
+    <SUITE FILE_PATH="coverage/wjy$re_cpe_from_llm_output.coverage" NAME="re_cpe_from_llm_output 覆盖结果" MODIFIED="1731985887638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RAG_VIP_VULN/gradio_show" />
+    <SUITE FILE_PATH="coverage/wjy$split_eng_chi.coverage" NAME="split_eng_chi 覆盖结果" MODIFIED="1733121943591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Fine_tune/translate" />
+    <SUITE FILE_PATH="coverage/wjy$finetune_Shanghai_AI_Laboratory_SafeMTData.coverage" NAME="finetune_Shanghai_AI_Laboratory_SafeMTData 覆盖结果" MODIFIED="1732688319036" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Fine_tune/replace/Users" />
+    <SUITE FILE_PATH="coverage/wjy$split_train_val.coverage" NAME="split_train_val 覆盖结果" MODIFIED="1733724270147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Fine_tune/replace" />
+    <SUITE FILE_PATH="coverage/wjy$qwen_api_demo.coverage" NAME="qwen_api_demo 覆盖结果" MODIFIED="1734344222358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RAG_VIP_VULN/llm" />
+    <SUITE FILE_PATH="coverage/wjy$new_glm4.coverage" NAME="new_glm4 覆盖结果" MODIFIED="1734345548933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RAG_VIP_VULN/llm" />
+    <SUITE FILE_PATH="coverage/wjy$gradio_web_server.coverage" NAME="gradio_web_server 覆盖结果" MODIFIED="1734681971165" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LLaVA-Med/LLaVA-Med/llava/serve" />
+    <SUITE FILE_PATH="coverage/wjy$web_demo__1_.coverage" NAME="web_demo (1) 覆盖结果" MODIFIED="1733818818531" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Fine_tune/translate" />
+    <SUITE FILE_PATH="coverage/wjy$qwen_cpe_72.coverage" NAME="qwen_cpe_72 覆盖结果" MODIFIED="1731930538410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RAG_VIP_VULN/llm" />
+    <SUITE FILE_PATH="coverage/wjy$new.coverage" NAME="new 覆盖结果" MODIFIED="1732608440783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Fine_tune/replace" />
+    <SUITE FILE_PATH="coverage/wjy$use_fine_tuned_model.coverage" NAME="use_fine_tuned_model 覆盖结果" MODIFIED="1732765326414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Fine_tune/replace" />
+    <SUITE FILE_PATH="coverage/wjy$openai_api_key_1_.coverage" NAME="openai_api_key(1) 覆盖结果" MODIFIED="1732780312133" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Fine_tune/translate" />
+    <SUITE FILE_PATH="coverage/wjy$results.coverage" NAME="results 覆盖结果" MODIFIED="1735901627614" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RAG_VIP_VULN" />
+    <SUITE FILE_PATH="coverage/wjy$milvus_connect_v2.coverage" NAME="milvus_connect_v2 覆盖结果" MODIFIED="1731405758983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RAG_VIP_VULN/llm" />
+    <SUITE FILE_PATH="coverage/wjy$gradio_demo3.coverage" NAME="gradio_demo3 覆盖结果" MODIFIED="1736318978490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RAG_VIP_VULN/gradio_show" />
+  </component>
+</project>

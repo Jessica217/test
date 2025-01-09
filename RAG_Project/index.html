@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LLM Chatbot</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f7f8fc;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+        #title {
+            font-size: 24px;
+            font-weight: bold;
+            color: #4a90e2;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        #chat-container {
+            width: 100%;
+            max-width: 700px;
+            height: 500px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+        #chat-header {
+            background-color: #4a90e2;
+            color: #fff;
+            padding: 15px;
+            font-size: 20px;
+            text-align: center;
+        }
+        #chat-box {
+            flex: 1;
+            padding: 20px;
+            overflow-y: auto;
+            border-bottom: 1px solid #ddd;
+        }
+        #chat-box p {
+            margin: 10px 0;
+            max-width: 80%;
+            padding: 10px 15px;
+            border-radius: 20px;
+        }
+        #chat-box p strong {
+            display: block;
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+        #chat-box p:nth-child(odd) {
+            background-color: #e1f5fe;
+            align-self: flex-start;
+        }
+        #chat-box p:nth-child(even) {
+            background-color: #bbdefb;
+            align-self: flex-end;
+        }
+        #input-container {
+            padding: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        #text-input {
+            width: calc(100% - 90px);
+            padding: 10px;
+            border-radius: 20px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            font-size: 16px;
+        }
+        #stream-btn {
+            width: 70px;
+            margin-left: 10px;
+            padding: 10px;
+            background-color: #4a90e2;
+            color: #fff;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        #stream-btn:hover {
+            background-color: #357abd;
+        }
+        #text-input:disabled,
+        #stream-btn:disabled {
+            background-color: #ddd;
+            cursor: not-allowed;
+        }
+    </style>
+    <script>
+        var eventSource;
+
+        function startTextStream() {
+            var userInput = document.getElementById("text-input").value;
+            var chatBox = document.getElementById("chat-box");
+            var textInput = document.getElementById("text-input");
+            var streamBtn = document.getElementById("stream-btn");
+
+            // Disable text area and stream button
+            textInput.disabled = true;
+            streamBtn.disabled = true;
+
+            // Append user message to the chat box
+            chatBox.innerHTML += "<p><strong>Q:</strong> " + userInput + "</p>";
+
+            // Clear the input field
+            textInput.value = "";
+
+            // Scroll to the bottom of the chat box
+            chatBox.scrollTop = chatBox.scrollHeight;
+
+            // Close existing event source if any
+            if (eventSource) {
+                eventSource.close();
+            }
+
+            // Create a new EventSource for streaming
+            eventSource = new EventSource("/stream?text=" + encodeURIComponent(userInput));
+
+            var cond = true;
+
+            // Handle incoming messages
+            eventSource.onmessage = function(event) {
+                // Check for end-of-response signal
+                if (event.data === "END") {
+                    // Close the event source
+                    eventSource.close();
+
+                    // Re-enable text area and stream button
+                    textInput.disabled = false;
+                    streamBtn.disabled = false;
+                } else {
+                    var messageText = event.data.replace("</s>", "");
+
+                    if (cond == true) {
+                        chatBox.innerHTML += "<p><strong>A:</strong> " + messageText + "</p>";
+                    } else {
+                        // Append the bot's response to the chat box
+                        chatBox.lastElementChild.innerHTML += " " + messageText;
+                    }
+                    // Scroll to the bottom of the chat box
+                    chatBox.scrollTop = chatBox.scrollHeight;
+                    cond = false;
+                }
+            };
+        }
+    </script>
+</head>
+<body>
+    <div id="title">Qwen2-chat-7B 大语言模型聊天机器人，使用检索增强生成和重排序技术</div>
+    <div id="chat-container">
+        <div id="chat-header">网络安全词汇术语汇编 Chatbot</div>
+
+        <div id="chat-box"></div>
+
+        <div id="input-container">
+            <textarea id="text-input" placeholder="Type your text..."></textarea>
+            <button id="stream-btn" onclick="startTextStream()">Message</button>
+        </div>
+    </div>
+</body>
+</html>
