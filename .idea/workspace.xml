@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b280526a-9f80-49a4-8e37-9f9bc93cb672" name="更改" comment="fdfd" />
+    <list default="true" id="b280526a-9f80-49a4-8e37-9f9bc93cb672" name="更改" comment="fdfd">
+      <change beforePath="$PROJECT_DIR$/RAG_VIP_VULN/open_ai_demo/Qwen2.5-7B-Instruct/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RAG_VIP_VULN/open_ai_demo/Qwen2.5-7B-Instruct/model-00002-of-00004.safetensors" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RAG_VIP_VULN/open_ai_demo/Qwen2.5-7B-Instruct/model-00004-of-00004.safetensors" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RAG_VIP_VULN/open_ai_demo/Qwen2.5-7B-Instruct/tokenizer.json" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -373,7 +378,7 @@
       <workItem from="1734682588162" duration="12005000" />
       <workItem from="1735005512924" duration="172663000" />
       <workItem from="1736302787962" duration="11128000" />
-      <workItem from="1736328140459" duration="3845000" />
+      <workItem from="1736328140459" duration="4597000" />
     </task>
     <task id="LOCAL-00001" summary="fdfd">
       <option name="closed" value="true" />
