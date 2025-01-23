@@ -39,8 +39,6 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 # 将模型移动到设备上
 image_model = image_model.to(device)
-
-
 # BLIP模型将图片编码为向量
 def encode_image(image_path):
     # 处理图片
@@ -50,9 +48,10 @@ def encode_image(image_path):
     # 图片编码
     with torch.no_grad():
         out = image_model.vision_model(**image_inputs).last_hidden_state
-    image_vectors = out[:, 0, :].detach().cpu().numpy().tolist()
+        # out = image_model.vision_model(**image_inputs).pooler_output
+    image_vectors = out[:, 0, :].detach().cpu().numpy().tolist() # pooler_output
     image_vectors = image_vectors[0]
-    # print(image_vectors)
+    print(image_vectors)
 
     return image_vectors
 
@@ -71,7 +70,7 @@ def search_image_vectors(query_vector, top_k=20):
         param=search_params,  # 搜索参数，可以调整
         limit=top_k  # 返回前top_k个结果
     )
-    print(search_results[0])
+    # print(search_results[0])
 
     # 返回匹配的top_k结果
     return search_results[0]  # 返回的是一个列表，包含前top_k个检索结果
@@ -118,7 +117,7 @@ def generate_prompt(query_text, text_search_results):
     context = " ".join([result['text'] for result in text_search_results])  # 直接访问字典中的 'text' 字段
     prompt = f"""
     ### 任务描述：
-基于以下影像数据 {context}，请回答以下问题：{query_text}
+基于用户上传的影像数据 {context}，请回答：{query_text}。
 
 ### 处理要求：
 
@@ -137,7 +136,7 @@ def generate_prompt(query_text, text_search_results):
    - 请确保结论基于影像信息，不要添加未经证实的推论。
 
 4. **注意事项**：
-   - 仅依据影像数据进行分析，不可添加外部信息或假设。
+   - 仅依据影像数据和RAG数据库中的信息进行分析，不可添加外部信息或假设。
    - 确保清晰地表述每侧肾脏的具体情况，避免模糊或不明确的回答。
    - 如果影像提供的信息不足以做出明确结论，务必说明无法判断或根据现有信息无法得出结论。
 
@@ -145,8 +144,6 @@ def generate_prompt(query_text, text_search_results):
 - **左侧肾脏**的评估（正常或异常，具体表现）  
 - **右侧肾脏**的评估（正常或异常，具体表现）  
 - **急性肾盂肾炎的诊断结果**（是/否/无法判断）
-
-
 """
     return prompt
 
@@ -191,7 +188,7 @@ def rag_pipeline(image_path, query_text):
 
 
 # 示例调用
-image_path = "extra_50_0001.jpg"  # 输入图片路径
+image_path = "extra_50_0003.jpg"  # 输入图片路径
 query_text = ("对用户提供的SPECT影像数据，详细分析左右肾脏的健康状况，需要注意：图中的左侧肾脏即为患者的左侧肾脏，右侧肾脏即为患者的右侧肾脏。"
               "针对每一侧肾脏，请根据影像特征，判断是否存在异常表现,如造影剂如何分布等情况。根据这些分析，做出对左右肾脏的健康评估")  # 输入查询文本
 

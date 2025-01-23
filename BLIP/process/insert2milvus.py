@@ -31,7 +31,7 @@ if text_collection_name not in client.list_collections():
     )
 
 # 创建图像 collection
-image_collection_name = "wjy_image_embedding_collection"
+image_collection_name = "high_dim_wjy_image_embedding_collection"
 if image_collection_name not in client.list_collections():
     client.create_collection(
         collection_name=image_collection_name,
@@ -40,7 +40,7 @@ if image_collection_name not in client.list_collections():
 
 
 # 设置图像文件所在的路径
-image_folder_path = 'datasets/images'  # 这里需要替换为图像所在目录的路径
+image_folder_path = '../datasets/images'  # 这里需要替换为图像所在目录的路径
 
 # 遍历每一行，生成文本特征和图像特征并插入到 Milvus
 for idx, (description, image_name) in enumerate(zip(descriptions, image_names)):
@@ -67,7 +67,8 @@ for idx, (description, image_name) in enumerate(zip(descriptions, image_names)):
         image_inputs = processor(raw_image, return_tensors="pt").to("cuda")  # 转换为PyTorch tensor并送入GPU
         with torch.no_grad():
             out = image_model.vision_model(**image_inputs).last_hidden_state
-        image_vectors = out[:, 0, :].detach().cpu().numpy().tolist()
+            # out = image_model.vision_model(**image_inputs).pooler_output
+        image_vectors = out[:, 0, :].detach().cpu().numpy().tolist() # pooler_output
         image_vectors = image_vectors[0]
 
         # 存储图像数据
@@ -77,10 +78,10 @@ for idx, (description, image_name) in enumerate(zip(descriptions, image_names)):
         print(f"Error processing image {image_name}: {e}")
 
     # # 将文本数据插入到 Milvus
-    client.insert(collection_name=text_collection_name, data=text_data)
-    print(f"Successfully inserted {len(text_data)} text embeddings into Milvus.")
+    # client.insert(collection_name=text_collection_name, data=text_data)
+    # print(f"Successfully inserted {len(text_data)} text embeddings into Milvus.")
 
-    # 将图像数据插入到 Milvus
-    # client.insert(collection_name=image_collection_name, data=image_data)
-    # print(f"Successfully inserted {len(image_data)} image embeddings into Milvus.")
+    #将图像数据插入到 Milvus
+    client.insert(collection_name=image_collection_name, data=image_data)
+    print(f"Successfully inserted {len(image_data)} image embeddings into Milvus.")
 

@@ -1,0 +1,842 @@
+[
+    {
+        "image": "BLIP/datasets/images/0001.jpg",
+        "caption": "左侧肾脏上极稀疏, 属于异常肾脏，右侧肾脏上下极分布稀疏, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0002.jpg",
+        "caption": "左侧肾脏正常，右侧肾脏上极放射性稀疏, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0003.jpg",
+        "caption": "左侧肾脏正常，右侧肾脏上下极放射性稀疏, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0003.jpg",
+        "caption": "左侧肾脏中下极放射性分布稀疏, 属于异常肾脏，右侧肾脏正常，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0005.jpg",
+        "caption": "左侧肾脏正常，右侧肾脏两极放射性分布稀疏, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0006.jpg",
+        "caption": "左侧肾脏中份外侧放射性分布稀疏, 属于异常肾脏，右侧肾脏上极放射性分布稀疏, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0007.jpg",
+        "caption": "左侧肾脏正常，右侧肾脏下极放射性稀疏, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0008.jpg",
+        "caption": "左侧肾脏正常，右侧肾脏上极放射性分布稀疏, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0009.jpg",
+        "caption": "左侧肾脏下极分布稀疏, 属于异常肾脏，右侧肾脏正常，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0010.jpg",
+        "caption": "左侧肾脏上极稀疏, 属于异常肾脏，右侧肾脏上极稀疏, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0011.jpg",
+        "caption": "左侧肾脏上极稀疏, 属于异常肾脏，右侧肾脏正常，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0012.jpg",
+        "caption": "左侧肾脏上极分布稀疏, 属于异常肾脏，右侧肾脏中下份放射稀疏, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0013.jpg",
+        "caption": "左侧肾脏上极放射性分布稀疏, 属于异常肾脏，右侧肾脏正常，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0014.jpg",
+        "caption": "左侧肾脏上下极放射性稀疏, 属于异常肾脏，右侧肾脏正常，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0015.jpg",
+        "caption": "左侧肾脏正常，右侧肾脏多处放射分布稀疏灶, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0016.jpg",
+        "caption": "左侧肾脏正常，右侧肾脏下极放射性稀疏, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0017.jpg",
+        "caption": "左侧肾脏上极和中份外侧缘放射性分布稀疏, 属于异常肾脏，右侧肾脏正常，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0018.jpg",
+        "caption": "左侧肾脏正常，右侧肾脏正常，该患者未患APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0019.jpg",
+        "caption": "左侧肾脏上极分布稀疏, 属于异常肾脏，右侧肾脏正常，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0020.jpg",
+        "caption": "左侧肾脏中下份见分布稀疏, 属于异常肾脏，右侧肾脏上极见分布稀疏, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0021.jpg",
+        "caption": "左侧肾脏正常，右侧肾脏下极放射性稀疏, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0022.jpg",
+        "caption": "左侧肾脏正常，右侧肾脏上下极放射性缺损, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0023.jpg",
+        "caption": "左侧肾脏正常，右侧肾脏上极稀疏, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0024.jpg",
+        "caption": "左侧肾脏正常，右侧肾脏上极放射性稀疏, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0025.jpg",
+        "caption": "左侧肾脏正常，右侧肾脏正常，该患者未患APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0026.jpg",
+        "caption": "左侧肾脏上极放射性分布稀疏, 属于异常肾脏，右侧肾脏上下级分布稀疏, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0027.jpg",
+        "caption": "左侧肾脏上下极放射性分布稀疏, 属于异常肾脏，右侧肾脏正常，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0028.jpg",
+        "caption": "左侧肾脏上下极分布稀疏, 属于异常肾脏，右侧肾脏上极分布稀疏, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0029.jpg",
+        "caption": "左侧肾脏上极放射性分布缺损灶, 属于异常肾脏，右侧肾脏上极放射性分布缺损灶, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0030.jpg",
+        "caption": "左侧肾脏部分缺损灶, 属于异常肾脏，右侧肾脏上下级极分布稀疏, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0031.jpg",
+        "caption": "左侧肾脏正常，右侧肾脏上下极放射性分布稀疏, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0032.jpg",
+        "caption": "左侧肾脏上下极分布稀疏, 属于异常肾脏，右侧肾脏正常，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0033.jpg",
+        "caption": "左侧肾脏中上份放射性分布稀疏, 属于异常肾脏，右侧肾脏正常，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0034.jpg",
+        "caption": "左侧肾脏正常，右侧肾脏弥漫性放射性不均匀, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0035.jpg",
+        "caption": "左侧肾脏上极放射性分布稀疏, 属于异常肾脏，右侧肾脏正常，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0036.jpg",
+        "caption": "左侧肾脏下极放射性分布稀疏, 属于异常肾脏，右侧肾脏上下极分布稀疏, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0037.jpg",
+        "caption": "左侧肾脏放射性分布不均匀, 属于异常肾脏，右侧肾脏放射性分布不均匀, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0038.jpg",
+        "caption": "左侧肾脏上极分布稀疏, 属于异常肾脏，右侧肾脏正常，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0039.jpg",
+        "caption": "左侧肾脏上下极放射性稀疏, 属于异常肾脏，右侧肾脏肾盂放射性聚集, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0040.jpg",
+        "caption": "左侧肾脏多灶放射性稀疏和不均匀, 属于异常肾脏，右侧肾脏多灶性放射性稀疏和不均匀, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0041.jpg",
+        "caption": "左侧肾脏上极及内侧放射性不均匀, 属于异常肾脏，右侧肾脏正常，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0042.jpg",
+        "caption": "左侧肾脏上极放射性不均匀, 属于异常肾脏，右侧肾脏多处放射性不均匀, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0043.jpg",
+        "caption": "左侧肾脏两极放射性稀疏, 属于异常肾脏，右侧肾脏两极放射性稀疏, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0044.jpg",
+        "caption": "左侧肾脏正常，右侧肾脏放射性分布稀疏伴上极小片状放射性缺损, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0045.jpg",
+        "caption": "左侧肾脏放射性分布不均匀，上极见小片状放射性缺陷, 属于异常肾脏，右侧肾脏正常，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0046.jpg",
+        "caption": "左侧肾脏中上极放射性分布稀疏, 属于异常肾脏，右侧肾脏下极放射性分布稀疏, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0047.jpg",
+        "caption": "左侧肾脏上极及外侧可见放射性分布稀疏缺损灶, 属于异常肾脏，右侧肾脏正常，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0048.jpg",
+        "caption": "左侧肾脏左侧, 属于异常肾脏，右侧肾脏放射性分布不均匀, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0049.jpg",
+        "caption": "左侧肾脏弥漫性分布稀疏, 属于异常肾脏，右侧肾脏上极分布稀疏, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0050.jpg",
+        "caption": "左侧肾脏上极放射性稀疏, 属于异常肾脏，右侧肾脏放射性分布弥漫性稀疏伴缺损灶, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0051.jpg",
+        "caption": "左侧肾脏放射性分布弥漫性稀疏, 属于异常肾脏，右侧肾脏放射性分布不均匀, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0052.jpg",
+        "caption": "左侧肾脏形态失常，多处放射性分布稀疏和缺损, 属于异常肾脏，右侧肾脏正常，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0053.jpg",
+        "caption": "左侧肾脏上下极放射性不均匀, 属于异常肾脏，右侧肾脏下极见放射性分布稀疏, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0054.jpg",
+        "caption": "左侧肾脏正常，右侧肾脏上极放射性分布稀疏, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0055.jpg",
+        "caption": "左侧肾脏正常，右侧肾脏放射性分布稀疏且不均匀, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0056.jpg",
+        "caption": "左侧肾脏多处放射性分布稀疏, 属于异常肾脏，右侧肾脏放射性分布弥漫性稀疏, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0057.jpg",
+        "caption": "左侧肾脏正常，右侧肾脏上极放射性分布稀疏伴小片状放射性缺损, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0058.jpg",
+        "caption": "左侧肾脏上极放射性分布稀疏, 属于异常肾脏，右侧肾脏多灶性分布稀疏和缺损, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0059.jpg",
+        "caption": "左侧肾脏正常，右侧肾脏放射性分布稀疏、不均匀, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0060.jpg",
+        "caption": "左侧肾脏多灶性放射性分布稀疏, 属于异常肾脏，右侧肾脏多灶性分布稀疏, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0061.jpg",
+        "caption": "左侧肾脏左肾小，放射性分布不均匀、稀疏, 属于异常肾脏，右侧肾脏正常，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0062.jpg",
+        "caption": "左侧肾脏正常，右侧肾脏放射性分布弥漫性稀疏, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0063.jpg",
+        "caption": "左侧肾脏正常，右侧肾脏多处放射性分布稀疏和缺损, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0064.jpg",
+        "caption": "左侧肾脏正常，右侧肾脏外形小，形态失常，放射性分布弥漫性稀疏, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0065.jpg",
+        "caption": "左侧肾脏上极见放射性分布缺损灶, 属于异常肾脏，右侧肾脏放射性分布不均匀, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0066.jpg",
+        "caption": "左侧肾脏上极放射性分布减少, 属于异常肾脏，右侧肾脏弥漫性稀疏且不均匀, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0067.jpg",
+        "caption": "左侧肾脏正常，右侧肾脏数灶缺损, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0068.jpg",
+        "caption": "左侧肾脏多灶放射性分布稀疏及缺损, 属于异常肾脏，右侧肾脏多灶性放射性分布稀疏及缺损, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0069.jpg",
+        "caption": "左侧肾脏正常，右侧肾脏多灶放射性稀疏和缺损, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0070.jpg",
+        "caption": "左侧肾脏下极放射性分布稀疏, 属于异常肾脏，右侧肾脏下极放射性分布稀疏, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0071.jpg",
+        "caption": "左侧肾脏中下极放射性分布弥漫性稀疏, 属于异常肾脏，右侧肾脏下极放射性分布稀疏, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0072.jpg",
+        "caption": "左侧肾脏正常，右侧肾脏多处放射性分布稀疏和缺损, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0073.jpg",
+        "caption": "左侧肾脏上极放射性稀疏, 属于异常肾脏，右侧肾脏正常，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0074.jpg",
+        "caption": "左侧肾脏左肾小，上极放射性分布稀疏, 属于异常肾脏，右侧肾脏正常，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0075.jpg",
+        "caption": "左侧肾脏上极及中份见放射性稀疏灶, 属于异常肾脏，右侧肾脏正常，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0076.jpg",
+        "caption": "左侧肾脏正常，右侧肾脏上下极放射性分布稀疏, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0077.jpg",
+        "caption": "左侧肾脏左肾小，放射性分布稀疏, 属于异常肾脏，右侧肾脏正常，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0078.jpg",
+        "caption": "左侧肾脏多处放射性分布稀疏缺损灶灶, 属于异常肾脏，右侧肾脏形态失常，多处放射性缺损灶, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0079.jpg",
+        "caption": "左侧肾脏正常，右侧肾脏中下极外侧放射性分布稀疏, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0080.jpg",
+        "caption": "左侧肾脏放射性分布稀疏及缺损灶, 属于异常肾脏，右侧肾脏正常，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0081.jpg",
+        "caption": "左侧肾脏正常，右侧肾脏上下极放射性不均匀, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0082.jpg",
+        "caption": "左侧肾脏正常，右侧肾脏上下极放射性分布稀疏, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0083.jpg",
+        "caption": "左侧肾脏形态小，放射性分布弥漫性不均匀, 属于异常肾脏，右侧肾脏正常，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0084.jpg",
+        "caption": "左侧肾脏放射性分布不均匀，上极放射性分布稀疏, 属于异常肾脏，右侧肾脏正常，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0085.jpg",
+        "caption": "左侧肾脏上下极放射性缺损, 属于异常肾脏，右侧肾脏正常，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0086.jpg",
+        "caption": "左侧肾脏正常，右侧肾脏中上极放射性分布稀疏及缺损, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0087.jpg",
+        "caption": "左侧肾脏正常，右侧肾脏上下极放射性不均匀, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0088.jpg",
+        "caption": "左侧肾脏多处放射性分布稀疏及缺损, 属于异常肾脏，右侧肾脏多处放射性分布稀疏及缺损灶, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0089.jpg",
+        "caption": "左侧肾脏外侧及右肾上极可见放射性分布稀疏灶, 属于异常肾脏，右侧肾脏放射性分布不均匀, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0090.jpg",
+        "caption": "左侧肾脏正常，右侧肾脏下极放射性分布稀疏, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0091.jpg",
+        "caption": "左侧肾脏放射性分布不均匀，可见放射性分布稀疏及缺损灶, 属于异常肾脏，右侧肾脏放射性分布不均匀，可见多灶性放射性分布稀疏, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0092.jpg",
+        "caption": "左侧肾脏正常，右侧肾脏上极放射性分布稀疏, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0093.jpg",
+        "caption": "左侧肾脏上极见片状放射性缺损, 属于异常肾脏，右侧肾脏正常，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0094.jpg",
+        "caption": "左侧肾脏放射性分布弥漫性稀疏, 属于异常肾脏，右侧肾脏正常，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0095.jpg",
+        "caption": "左侧肾脏放射性分布不均匀, 属于异常肾脏，右侧肾脏正常，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0096.jpg",
+        "caption": "左侧肾脏中外放射性稀疏, 属于异常肾脏，右侧肾脏中上放射性稀疏, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0097.jpg",
+        "caption": "左侧肾脏外形小，放射性分布不均匀，可见放射性稀疏及缺损灶, 属于异常肾脏，右侧肾脏正常，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0098.jpg",
+        "caption": "左侧肾脏上下极放射性稀疏, 属于异常肾脏，右侧肾脏正常，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0099.jpg",
+        "caption": "左侧肾脏上下极放射性缺损, 属于异常肾脏，右侧肾脏正常，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0100.jpg",
+        "caption": "左侧肾脏上下极放射性稀疏, 属于异常肾脏，右侧肾脏正常，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0101.jpg",
+        "caption": "左侧肾脏多处放射性稀疏伴缺损, 属于异常肾脏，右侧肾脏正常，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0102.jpg",
+        "caption": "左侧肾脏正常，右侧肾脏多灶性放射性分布稀疏, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0103.jpg",
+        "caption": "左侧肾脏形态失常，多处放射性分布不均, 属于异常肾脏，右侧肾脏形态失常。多处放射性分布弥漫性稀疏, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0104.jpg",
+        "caption": "左侧肾脏正常，右侧肾脏上下极放射性稀疏, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0105.jpg",
+        "caption": "左侧肾脏正常，右侧肾脏形态失常、放射性分布弥漫性稀疏, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0106.jpg",
+        "caption": "左侧肾脏上下极放射性分布稀疏, 属于异常肾脏，右侧肾脏下极放射性分布稀疏, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0107.jpg",
+        "caption": "左侧肾脏可见数灶放射性分布稀疏, 属于异常肾脏，右侧肾脏正常，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0108.jpg",
+        "caption": "左侧肾脏上极稀疏灶, 属于异常肾脏，右侧肾脏数灶放射性分布缺损, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0109.jpg",
+        "caption": "左侧肾脏正常，右侧肾脏外形小。放射性分布稀疏, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0110.jpg",
+        "caption": "左侧肾脏正常，右侧肾脏放射性分布弥漫稀疏, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0111.jpg",
+        "caption": "左侧肾脏正常，右侧肾脏上下极放射性分布缺损灶, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0112.jpg",
+        "caption": "左侧肾脏多灶性放射性稀疏及缺损, 属于异常肾脏，右侧肾脏正常，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0113.jpg",
+        "caption": "左侧肾脏上极放射性分布稀疏, 属于异常肾脏，右侧肾脏多灶性分布稀疏, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0114.jpg",
+        "caption": "左侧肾脏两极放射性稀疏, 属于异常肾脏，右侧肾脏正常，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0115.jpg",
+        "caption": "左侧肾脏下极放射性稀疏, 属于异常肾脏，右侧肾脏正常，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0116.jpg",
+        "caption": "左侧肾脏正常，右侧肾脏放射性分布不均匀, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0117.jpg",
+        "caption": "左侧肾脏正常，右侧肾脏右肾小，放射性分布不均匀且稀疏, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0118.jpg",
+        "caption": "左侧肾脏正常，右侧肾脏上下极反射性稀疏, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0119.jpg",
+        "caption": "左侧肾脏多处放射性稀疏和缺损, 属于异常肾脏，右侧肾脏正常，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0120.jpg",
+        "caption": "左侧肾脏上极分布稀疏, 属于异常肾脏，右侧肾脏正常，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0121.jpg",
+        "caption": "左侧肾脏左肾小，放射性不均匀, 属于异常肾脏，右侧肾脏正常，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0122.jpg",
+        "caption": "左侧肾脏上极稀疏, 属于异常肾脏，右侧肾脏上极稀疏, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0123.jpg",
+        "caption": "左侧肾脏多处放射性分布稀疏和缺损灶, 属于异常肾脏，右侧肾脏正常，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0124.jpg",
+        "caption": "左侧肾脏上极放射性分布稀疏, 属于异常肾脏，右侧肾脏上下极放射性分布稀疏, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0125.jpg",
+        "caption": "左侧肾脏上极反射性稀疏, 属于异常肾脏，右侧肾脏上下极放射性稀疏, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0126.jpg",
+        "caption": "左侧肾脏放射性分布不均匀, 属于异常肾脏，右侧肾脏正常，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0127.jpg",
+        "caption": "左侧肾脏正常，右侧肾脏外形小，形态失常，多灶性放射性稀疏及缺损, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0128.jpg",
+        "caption": "左侧肾脏放射性分布不均匀, 属于异常肾脏，右侧肾脏正常，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0129.jpg",
+        "caption": "左侧肾脏左肾较小，形态失常，放射性分布稀疏, 属于异常肾脏，右侧肾脏正常，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0130.jpg",
+        "caption": "左侧肾脏左肾小，形态失常，放射性分布稀疏、不均匀, 属于异常肾脏，右侧肾脏正常，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0131.jpg",
+        "caption": "左侧肾脏放射性分布不均匀, 属于异常肾脏，右侧肾脏放射性分布不均匀, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0132.jpg",
+        "caption": "左侧肾脏形态失常，放射性分布不均匀, 属于异常肾脏，右侧肾脏形态失常，放射性分布不均匀, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0133.jpg",
+        "caption": "左侧肾脏正常，右侧肾脏右肾小，两极放射性分布稀疏, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0134.jpg",
+        "caption": "左侧肾脏形态失常，放射性分布不均匀, 属于异常肾脏，右侧肾脏形态失常，放射性分布不均匀, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0135.jpg",
+        "caption": "左侧肾脏上下极放射性不均匀, 属于异常肾脏，右侧肾脏形态失常，放射性分布弥漫性稀疏伴缺损灶, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0136.jpg",
+        "caption": "左侧肾脏正常，右侧肾脏放射性分布不均匀, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0137.jpg",
+        "caption": "左侧肾脏放射性分布不均匀, 属于异常肾脏，右侧肾脏形态失常，两极稀疏, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0138.jpg",
+        "caption": "左侧肾脏上极放射性稀疏, 属于异常肾脏，右侧肾脏正常，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0139.jpg",
+        "caption": "左侧肾脏正常，右侧肾脏正常，该患者未患APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0140.jpg",
+        "caption": "左侧肾脏外形小，放射性分布弥漫性稀疏, 属于异常肾脏，右侧肾脏中上放射性分布稀疏, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0141.jpg",
+        "caption": "左侧肾脏上极放射性分布稀疏, 属于异常肾脏，右侧肾脏中下放射性分布稀疏伴缺损灶, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0142.jpg",
+        "caption": "左侧肾脏上下极放射性稀疏, 属于异常肾脏，右侧肾脏多处放射性分布稀疏和缺损, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0143.jpg",
+        "caption": "左侧肾脏多灶性放射性稀疏和缺损, 属于异常肾脏，右侧肾脏多灶性放射性稀疏和缺损, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0144.jpg",
+        "caption": "左侧肾脏放射性分布不均匀，可见放射性分布稀疏及缺损灶, 属于异常肾脏，右侧肾脏放射性分布不均匀，可见多灶性放射性分布稀疏, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0145.jpg",
+        "caption": "左侧肾脏左肾小，形态失常，多处放射性分布稀疏, 属于异常肾脏，右侧肾脏下极放射性分布稀疏, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0146.jpg",
+        "caption": "左侧肾脏上极放射性分布稀疏及放射性缺损, 属于异常肾脏，右侧肾脏右肾小，多处放射性分布稀疏和缺损, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0147.jpg",
+        "caption": "左侧肾脏正常，右侧肾脏放射性分布不均匀，多灶性放射性分布稀疏和缺损, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0148.jpg",
+        "caption": "左侧肾脏上下极放射性稀疏, 属于异常肾脏，右侧肾脏上极放射性分布稀疏, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0149.jpg",
+        "caption": "左侧肾脏多处放射性分布稀疏, 属于异常肾脏，右侧肾脏下极放射性分布稀疏, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0150.jpg",
+        "caption": "左侧肾脏左肾小，形态失常，放射性分布不均匀，可见多个放射性分布稀疏, 属于异常肾脏，右侧肾脏正常，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0151.jpg",
+        "caption": "左侧肾脏形态失常，放射性分布不均匀，可见数灶放射性分布稀疏, 属于异常肾脏，右侧肾脏外形小，形态失常，放射性分布弥漫性稀疏及缺损灶, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0152.jpg",
+        "caption": "左侧肾脏弥漫性稀疏和缺损, 属于异常肾脏，右侧肾脏弥漫性稀疏和缺损, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0153.jpg",
+        "caption": "左侧肾脏外形小，形态失常，多灶缺损, 属于异常肾脏，右侧肾脏正常，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0154.jpg",
+        "caption": "左侧肾脏上极放射性稀疏, 属于异常肾脏，右侧肾脏正常，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0155.jpg",
+        "caption": "左侧肾脏正常，右侧肾脏外形小，形态失常，放射性分布弥漫性稀疏、不均匀, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0156.jpg",
+        "caption": "左侧肾脏多灶性放射性分布稀疏和缺损, 属于异常肾脏，右侧肾脏多灶性放射性稀疏和缺损, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0157.jpg",
+        "caption": "左侧肾脏上极放射性分布稀疏, 属于异常肾脏，右侧肾脏正常，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0158.jpg",
+        "caption": "左侧肾脏放射性分布不均匀, 属于异常肾脏，右侧肾脏放射性分布不均匀, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0159.jpg",
+        "caption": "左侧肾脏左肾小, 属于异常肾脏，右侧肾脏上下级放射性分布稀疏, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0160.jpg",
+        "caption": "左侧肾脏上下极放射性分布稀疏, 属于异常肾脏，右侧肾脏上下极放射性分布稀疏, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0161.jpg",
+        "caption": "左侧肾脏下极放射性稀疏, 属于异常肾脏，右侧肾脏上下极放射性分布稀疏, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0162.jpg",
+        "caption": "左侧肾脏正常，右侧肾脏中上极放射性稀疏, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0163.jpg",
+        "caption": "左侧肾脏正常，右侧肾脏上下极放射性分布稀疏, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0164.jpg",
+        "caption": "左侧肾脏正常，右侧肾脏正常，该患者未患APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0165.jpg",
+        "caption": "左侧肾脏放射性分布稀疏及缺损灶, 属于异常肾脏，右侧肾脏正常，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0166.jpg",
+        "caption": "左侧肾脏正常，右侧肾脏放射性分布不均匀, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0167.jpg",
+        "caption": "左侧肾脏上下级放射性稀疏, 属于异常肾脏，右侧肾脏上下极放射性稀疏, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0168.jpg",
+        "caption": "左侧肾脏多灶性放射性稀疏及缺损, 属于异常肾脏，右侧肾脏多灶性放射性稀疏及缺损, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0169.jpg",
+        "caption": "左侧肾脏多处放射性分布稀疏和缺损, 属于异常肾脏，右侧肾脏多处放射性稀疏和缺损, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0170.jpg",
+        "caption": "左侧肾脏放射性分布弥漫伴稀疏, 属于异常肾脏，右侧肾脏正常，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0171.jpg",
+        "caption": "左侧肾脏上极稀疏，下极弥漫性稀疏, 属于异常肾脏，右侧肾脏上极稀疏, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0172.jpg",
+        "caption": "左侧肾脏正常，右侧肾脏正常，该患者未患APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0173.jpg",
+        "caption": "左侧肾脏上下级极放射性稀疏, 属于异常肾脏，右侧肾脏上极部分稀疏, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0174.jpg",
+        "caption": "左侧肾脏可见数个放射性缺损, 属于异常肾脏，右侧肾脏正常，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0175.jpg",
+        "caption": "左侧肾脏多灶性放射性分布稀疏, 属于异常肾脏，右侧肾脏上极放射性稀疏, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0176.jpg",
+        "caption": "左侧肾脏左肾小，放射性分布异常稀疏、不均匀, 属于异常肾脏，右侧肾脏正常，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0177.jpg",
+        "caption": "左侧肾脏可见多灶放射性分布稀疏, 属于异常肾脏，右侧肾脏外形较小，形态失常, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0178.jpg",
+        "caption": "左侧肾脏正常，右侧肾脏弥漫性稀疏、不均匀、伴下极放射性分布缺损, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0179.jpg",
+        "caption": "左侧肾脏正常，右侧肾脏放射性分布不均匀、上极缺损灶、下极稀疏, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0180.jpg",
+        "caption": "左侧肾脏外形小，放射性分布不均匀，可见放射性稀疏及缺损灶, 属于异常肾脏，右侧肾脏下极内侧可见放射性分布及稀疏灶, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0181.jpg",
+        "caption": "左侧肾脏左肾小，放射性分布不均匀、稀疏, 属于异常肾脏，右侧肾脏形态正常，放射性分布稀疏，见多处放射性分布稀疏和缺损, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0182.jpg",
+        "caption": "左侧肾脏下极内侧小片状放射性缺损, 属于异常肾脏，右侧肾脏上极放射性稀疏, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0183.jpg",
+        "caption": "左侧肾脏正常，右侧肾脏正常，该患者未患APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0184.jpg",
+        "caption": "左侧肾脏多灶性放射性分布性稀疏和缺损, 属于异常肾脏，右侧肾脏放射性分布性稀疏和缺损, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0185.jpg",
+        "caption": "左侧肾脏上极稀疏, 属于异常肾脏，右侧肾脏上下极放射性分布稀疏, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0186.jpg",
+        "caption": "左侧肾脏上极可见放射性分布稀疏灶, 属于异常肾脏，右侧肾脏上下极可见较大的放射性分布缺损, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0187.jpg",
+        "caption": "左侧肾脏中极放射性分布稀疏, 属于异常肾脏，右侧肾脏正常，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0188.jpg",
+        "caption": "左侧肾脏上极稀疏、下极缺损灶, 属于异常肾脏，右侧肾脏下极放射性分布稀疏, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0189.jpg",
+        "caption": "左侧肾脏正常，右侧肾脏放射性分布弥漫性稀疏、不均匀, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0190.jpg",
+        "caption": "左侧肾脏下极稀疏, 属于异常肾脏，右侧肾脏正常，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0191.jpg",
+        "caption": "左侧肾脏正常，右侧肾脏外形小，形态失常，放射性分布弥漫性稀疏, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0192.jpg",
+        "caption": "左侧肾脏形态失常，多灶性放射性分布稀疏和缺损, 属于异常肾脏，右侧肾脏形态失常，多灶性放射性分布稀疏和缺损, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0193.jpg",
+        "caption": "左侧肾脏肾小，放射性分布弥漫性稀疏伴局部缺损灶, 属于异常肾脏，右侧肾脏正常，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0194.jpg",
+        "caption": "左侧肾脏放射性分布稀疏, 属于异常肾脏，右侧肾脏放射性分布稀疏, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0195.jpg",
+        "caption": "左侧肾脏放射性分布不均，两极见放射性缺损灶, 属于异常肾脏，右侧肾脏正常，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0196.jpg",
+        "caption": "左侧肾脏正常，右侧肾脏上极外侧呈放射性缺损, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0197.jpg",
+        "caption": "左侧肾脏上极放射性分布稀疏, 属于异常肾脏，右侧肾脏上极放射性分布稀疏, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0198.jpg",
+        "caption": "左侧肾脏多灶性放射性稀疏, 属于异常肾脏，右侧肾脏多灶性放射性稀疏, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0199.jpg",
+        "caption": "左侧肾脏多处放射性分布稀疏, 属于异常肾脏，右侧肾脏中下极放射性缺损, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0200.jpg",
+        "caption": "左侧肾脏多处放射性分布稀疏, 属于异常肾脏，右侧肾脏多处放射性分布稀疏, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0201.jpg",
+        "caption": "左侧肾脏正常，右侧肾脏放射性稀疏伴缺损灶, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0202.jpg",
+        "caption": "左侧肾脏放射性分布稀疏伴缺损灶, 属于异常肾脏，右侧肾脏放射性稀疏伴缺损灶, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0203.jpg",
+        "caption": "左侧肾脏放射性分布稀疏、不均匀, 属于异常肾脏，右侧肾脏下极放射性分布稀疏, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0204.jpg",
+        "caption": "左侧肾脏正常，右侧肾脏上极放射性分布稀疏, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0205.jpg",
+        "caption": "左侧肾脏两极外侧大片放射性缺损, 属于异常肾脏，右侧肾脏中下极放射性分布稀疏, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0206.jpg",
+        "caption": "左侧肾脏多灶性放射性稀疏, 属于异常肾脏，右侧肾脏多灶性放射性稀疏, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0207.jpg",
+        "caption": "左侧肾脏多处放射性分布系数和缺损, 属于异常肾脏，右侧肾脏正常，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0208.jpg",
+        "caption": "左侧肾脏上极放射性分布稀疏, 属于异常肾脏，右侧肾脏放射性分布不均匀, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0209.jpg",
+        "caption": "左侧肾脏正常，右侧肾脏多灶性放射性分布系稀疏和缺损, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    },
+    {
+        "image": "BLIP/datasets/images/0210.jpg",
+        "caption": "左侧肾脏上极外侧和下极放射性分布稀疏, 属于异常肾脏，右侧肾脏多处放射性分布稀疏灶, 属于异常肾脏，综合考虑，该患者患有APN急性肾盂肾炎。"
+    }
+]
