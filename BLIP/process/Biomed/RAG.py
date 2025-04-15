@@ -14,8 +14,11 @@ from llava.constants import IMAGE_TOKEN_INDEX, DEFAULT_IMAGE_TOKEN
 from llava.utils import disable_torch_init
 from llava.mm_utils import tokenizer_image_token, process_images
 from tokenizers import AddedToken
-from llava.conversation import conv_templates
 import argparse
+from conversation import Conversation, SeparatorStyle
+from transformers import AutoProcessor
+from llava.conversation import conv_templates, SeparatorStyle
+
 
 #连接到 Milvus
 connections.connect(uri="http://localhost:19530")
@@ -36,6 +39,14 @@ clip_model.to(device)
 clip_model.eval()
 
 
+llava_tokenizer, llava_model, llava_image_processor, llava_context_len = load_pretrained_model(
+        model_path="D:\\new_start\\llava-med",
+        model_base=None,
+        model_name='llava-med-v1.5-mistral-7b'
+    )
+
+llava_tokenizer.add_tokens([AddedToken(DEFAULT_IMAGE_TOKEN, single_word=False, lstrip=True, rstrip=True, special=True)])
+
 # 使用biomed-clip对图像编码
 def encode_image(image_path):
     raw_image = Image.open(image_path).convert('RGB')  # 打开图像
@@ -48,11 +59,11 @@ def encode_image(image_path):
 
 
 # 图像向量查询函数
-def search_image_vectors(query_vector, top_k=20):
+def search_image_vectors(query_vector, top_k):
     query_vector = np.array([query_vector], dtype=np.float32)
     search_params = {
         "metric_type": "COSINE",
-        "params": {'nprobe': 20, 'level': 3, 'radius': 0.8, 'range_filter': 1}  # radius去掉，因为COSINE度量不需要该参数
+        "params": {'nprobe': 10, 'level': 3, 'radius': 0.8, 'range_filter': 1}
     }
     # 查询图像向量数据库
     search_results = image_collection.search(
@@ -66,6 +77,7 @@ def search_image_vectors(query_vector, top_k=20):
         # 仅提取搜索结果中的最相似图像和相似度分数
         matches = []
         for result in search_results[0]:
+            text_data = text_collection.query(expr=f"id == {result.id}", output_fields=["text"])
             matches.append({
                 'id': result.id,  # 向量的ID
                 'distance': result.distance  # 余弦相似度分数
@@ -81,125 +93,31 @@ def get_RAG_text_from_image_ids(image_ids):
     # 根据图像数据库返回的 ID 查找对应的文本
     results = []
     for image_id in image_ids:
-        result = text_collection.query(expr=f"id == {image_id}", output_fields=["text", "id"])  # 确保查询时获取'id'和'text'字段
-        if result:  # 确保查询结果非空
-            try:
-                # 如果返回的数据是字符串类型，转为字典
-                if isinstance(result[0], str):
-                    data = eval(result[0])  # 将字符串解析为字典
-                else:
-                    data = result[0]  # 如果是字典则直接使用
-                text = data.get('text', None)
-                id = data.get('id', None)
-
-                if text:
-                    # 确保返回格式一致，text在前，id在后
-                    results.append({'text': text, 'id': id})
-                else:
-                    # 如果没有文本，加入提示信息
-                    results.append({'text': 'No text available', 'id': id})
-            except Exception as e:
-                # 异常处理，打印错误信息
-                print(f"Error processing result for image_id {image_id}: {e}")
-                results.append({'text': 'Error', 'id': image_id})
-        else:
-            # 如果查询没有返回结果
-            print(f"No result found for image_id {image_id}")
-            results.append({'text': 'No text available', 'id': image_id})
-
-    print(f"====================RAG_results==========================: {results}")
+        result = text_collection.query(expr=f"id == {image_id}", output_fields=["text", "id"])
+        if result:
+            data = result[0] if isinstance(result[0], dict) else eval(result[0])
+            results.append({'text': data.get('text', 'No text available'), 'id': data.get('id', image_id)})
     return results
-
-
-### 对召回结果引入投票机制
-
-def vote_diagnosis(rag_results):
-    """
-    对 RAG 召回结果进行投票：
-    - 针对左肾和右肾分别统计 'normal' 和 'abnormal' 的出现次数
-    - 如果 abnormal 次数较多，则判定为 abnormal；否则为 normal
-    - 根据医学规则，只要有一侧肾为 abnormal，最终诊断为 APN（Yes）
-
-    参数:
-        rag_results: List[dict]，每个字典包含键 "text" (诊断文本) 和 "id"
-
-    返回:
-        dict: 包含最终左右肾状态和整体诊断结果，同时附带各项计数信息
-    """
-    left_normal_count = 0
-    left_abnormal_count = 0
-    right_normal_count = 0
-    right_abnormal_count = 0
-
-    for item in rag_results:
-        text = item.get("text", "").lower()
-        # 将文本按句子拆分（简单用句点拆分）
-        sentences = text.split(".")
-
-        # 针对左肾
-        left_found = False
-        for sentence in sentences:
-            if "left kidney" in sentence:
-                # 如果句子同时包含 "normal" 和 "abnormal"，则不计入
-                if "normal" in sentence and "abnormal" not in sentence:
-                    left_normal_count += 1
-                    left_found = True
-                    break
-                elif "abnormal" in sentence:
-                    left_abnormal_count += 1
-                    left_found = True
-                    break
-        # 如果找不到明确描述，可以选择不计入或者统计为 "unable to determine"
-
-        # 针对右肾
-        right_found = False
-        for sentence in sentences:
-            if "right kidney" in sentence:
-                if "normal" in sentence and "abnormal" not in sentence:
-                    right_normal_count += 1
-                    right_found = True
-                    break
-                elif "abnormal" in sentence:
-                    right_abnormal_count += 1
-                    right_found = True
-                    break
-        # 同样，如果没有明确描述可选择跳过
-
-    # 根据计数结果确定左右肾状态：
-    left_final = "normal" if left_normal_count >= left_abnormal_count else "abnormal"
-    right_final = "normal" if right_normal_count >= right_abnormal_count else "abnormal"
-
-    # 诊断规则：只要任一侧为 abnormal，则最终诊断为 APN（Yes）
-    overall_diagnosis = "Yes" if left_final == "abnormal" or right_final == "abnormal" else "No"
-
-    return {
-        "left_kidney": left_final,
-        "right_kidney": right_final,
-        "diagnosis": overall_diagnosis,
-        "details": {
-            "left_normal_count": left_normal_count,
-            "left_abnormal_count": left_abnormal_count,
-            "right_normal_count": right_normal_count,
-            "right_abnormal_count": right_abnormal_count
-        }
-    }
 
 
 def generate_prompt(query_text, RAG_search_results):
     # 生成提示词，结合图像和文本查询的结果
-    # context = " ".join([result['text'] for result in RAG_search_results])  # 直接访问字典中的 'text' 字段
+    context = " ".join([result['text'] for result in RAG_search_results])  # 直接访问字典中的 'text' 字段
     prompt = f"""
 You are a nephrology expert specializing in the diagnosis of acute pyelonephritis (APN) and have expertise in medical imaging analysis, particularly SPECT imaging.
 
+These are the common methods and basis for radiologists to evaluate DMSA renal imaging. You are a nephrology expert, You must remember:
+Normal renal static imaging: Both kidneys are bean-shaped, with clear images and intact contours. The outer zones of the renal shadows show higher radioactivity concentration, while the central and hilar areas are slightly lighter, with no significant difference in radioactive distribution between the two kidneys.
+Abnormal imaging: Various diseases can cause localized or generalized renal function impairment, which may manifest as abnormalities in kidney position, morphology, or number; localized sparse or absent radioactive distribution; localized increased radioactivity; or faint or non-visualized renal shadows.
+
 ### Task Description:
 
-Your task is to analyze the provided SPECT medical images and corresponding medical text information ({RAG_search_results}) while strictly adhering to the following principles:
+Your task is to analyze the provided SPECT medical images and corresponding medical text information ({context}) while strictly adhering to the following principles:
 1.Base your responses solely on the provided supporting information. Do not add any content beyond the given information.
 2.Prioritize using the exact wording from the supporting information to ensure accuracy.
 2.Ensure that your response includes all key information required by the question, leaving no critical medical details omitted.
 
-Please answer the following question: {query_text}
-
+Please answer the following question: {query_text}.
 
 ### Processing Requirements:
 
@@ -223,39 +141,23 @@ Please answer the following question: {query_text}
   - **Left Kidney Assessment** (Normal or Abnormal, with details)
   - **Right Kidney Assessment** (Normal or Abnormal, with details)
   - **Acute Pyelonephritis Diagnosis** (Yes / No / Unable to determine)
-"""
-
+ """
 
     return prompt
 
 
 def llava_med_generate_answer(image_path, prompt):
-    llava_tokenizer, llava_model, llava_image_processor, llava_context_len = load_pretrained_model(
-        model_path="D:\\new_start\\llava-med",
-        model_base=None,
-        model_name='llava-med-v1.5-mistral-7b'
-    )
-
-    llava_tokenizer.add_tokens([AddedToken(DEFAULT_IMAGE_TOKEN, single_word=False, lstrip=True, rstrip=True, special=True)])
 
     # 读取图像
     image_data = Image.open(image_path).convert("RGB")
     image_tensor = llava_image_processor.preprocess(image_data, return_tensors='pt')['pixel_values'].half().cuda()
 
-    # 回答模板
-    conv_mode = 'llava_v1'
-    conv = conv_templates[conv_mode].copy()
+    conv = conv_templates['llava_v1'].copy()
+    conv.append_message(conv.roles[0], DEFAULT_IMAGE_TOKEN + "\n" + prompt)
+    conv.append_message(conv.roles[1], None)
 
-    if conv is not None and hasattr(conv, "copy"):
-        conv = conv.copy()
-        inp = DEFAULT_IMAGE_TOKEN + '\n' + prompt
-        conv.append_message(conv.roles[0], inp)
-        conv.append_message(conv.roles[1], None)
-        final_prompt = conv.get_prompt()
-    else:
-        final_prompt = DEFAULT_IMAGE_TOKEN + '\n' + prompt
-
-    input_ids = tokenizer_image_token(final_prompt, llava_tokenizer, IMAGE_TOKEN_INDEX, return_tensors='pt').unsqueeze(0).cuda()
+    # print("final_prompt", final_prompt)
+    input_ids = tokenizer_image_token(conv.get_prompt(), llava_tokenizer, IMAGE_TOKEN_INDEX, return_tensors='pt').unsqueeze(0).cuda()
 
     # 进行推理
     with torch.inference_mode():
@@ -265,7 +167,7 @@ def llava_med_generate_answer(image_path, prompt):
             do_sample=True,
             image_sizes=[image_data.size],
             max_new_tokens=1024,
-            temperature=0.2,
+            temperature=0.1,
             use_cache=False
         )
     outputs = llava_tokenizer.batch_decode(output_ids, skip_special_tokens=True)[0].strip()
@@ -273,29 +175,46 @@ def llava_med_generate_answer(image_path, prompt):
     return outputs
 
 
+def process_images_in_folder(image_folder, query_text, output_file):
+    results = []
+    for image_name in os.listdir(image_folder):
+        image_path = os.path.join(image_folder, image_name)
+        if not image_path.lower().endswith(('.jpg', '.png', '.jpeg')):
+            continue
+
+        print(f"Processing: {image_name}")
+        image_vector = encode_image(image_path)
+        image_search_results = search_image_vectors(image_vector, top_k=5)
+        image_ids = [result['id'] for result in image_search_results]
+        text_search_results = get_RAG_text_from_image_ids(image_ids)
+        prompt = generate_prompt(query_text, text_search_results)
+        answer = llava_med_generate_answer(image_path, prompt)
+
+        results.append({"image": image_path, "answer": answer})
+        print(f"Finished: {image_name}\n")
+
+    # 保存结果
+    with open(output_file, "w", encoding="utf-8") as f:
+        json.dump(results, f, indent=4, ensure_ascii=False)
+
+    print(f"Results saved to {output_file}")
+
+
 if __name__ == "__main__":
     # 可选：如果需要通过命令行传入参数，可以使用 argparse，否则直接指定
     parser = argparse.ArgumentParser()
-    parser.add_argument("--image-path", type=str, default="../extra_50_0002.jpg", help="Path to the SPECT image")
+    parser.add_argument("--image-folder", type=str, default="D:/maskrcnn/datasets/extra_DMSA_VAL/images", help="Folder containing SPECT images")
+
+    # parser.add_argument("--image-path", type=str, default="D:/maskrcnn/datasets/extra_DMSA_VAL/RGB_mode/0004.jpg", help="Path to the SPECT image")
     parser.add_argument("--query-text",
         type=str,
         default="Analyze the provided SPECT imaging data to evaluate the health status of both kidneys. "
-                "Provide a detailed assessment for each kidney, identifying any potential abnormalities, "
-                "disease indications, or signs of dysfunction.",
+                "Provide a detailed assessment for each kidney, identifying any potential abnormalities, disease indications, or signs of dysfunction."
+                "State any abnormalities, disease indicators, or dysfunctions concisely. Do not generate explanations—only give the final medical assessment.",
         help="Query to analyze kidney pathology")
 
+    parser.add_argument("--output-file", type=str, default="RAG_output_topk5.json", help="File to save results")
+
+
     args = parser.parse_args()
-    image_vector = encode_image(args.image_path)
-    image_search_results = search_image_vectors(image_vector, top_k=20)
-    image_ids = [result['id'] for result in image_search_results]
-    text_search_results = get_RAG_text_from_image_ids(image_ids)
-
-    filtered_result = vote_diagnosis(text_search_results)
-    print("Voting Result:", filtered_result)
-
-    prompt = generate_prompt(args.query_text, filtered_result)
-    print("=========================prompt============================", prompt)
-
-    answer = llava_med_generate_answer(args.image_path, prompt)
-
-    print("=========================LLava-med===============================", answer)
+    process_images_in_folder(args.image_folder, args.query_text, args.output_file)

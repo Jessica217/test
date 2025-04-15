@@ -1,0 +1,202 @@
+[
+    {
+        "image": "D:/maskrcnn/datasets/extra_DMSA_VAL/images\\0001.jpg",
+        "answer": "The left kidney appears to be smaller in size and shows abnormal sparse and heterogeneous radioactive distribution. This suggests that the left kidney may be affected by acute pyelonephritis. The right kidney appears normal. Based on the provided information, the patient is diagnosed with acute pyelonephritis."
+    },
+    {
+        "image": "D:/maskrcnn/datasets/extra_DMSA_VAL/images\\0002.jpg",
+        "answer": "The left kidney appears to have scarring, which is an abnormality. The right kidney, on the other hand, is normal. Based on the provided information, the patient has acute pyelonephritis (APN)."
+    },
+    {
+        "image": "D:/maskrcnn/datasets/extra_DMSA_VAL/images\\0003.jpg",
+        "answer": "The left kidney appears to have an abnormality, while the right kidney is normal. The patient has been diagnosed with acute pyelonephritis."
+    },
+    {
+        "image": "D:/maskrcnn/datasets/extra_DMSA_VAL/images\\0004.jpg",
+        "answer": "The left kidney appears to have an injury, which is an abnormal condition. The right kidney, on the other hand, is normal. Based on the provided information, the patient is diagnosed with acute pyelonephritis (APN)."
+    },
+    {
+        "image": "D:/maskrcnn/datasets/extra_DMSA_VAL/images\\0005.jpg",
+        "answer": "The left kidney appears to be abnormal, while the right kidney is normal. The patient has been diagnosed with acute pyelonephritis."
+    },
+    {
+        "image": "D:/maskrcnn/datasets/extra_DMSA_VAL/images\\0006.jpg",
+        "answer": "The left kidney appears to have scarring and is abnormal. The right kidney also has scarring and is abnormal. Based on the provided information, the patient has acute pyelonephritis."
+    },
+    {
+        "image": "D:/maskrcnn/datasets/extra_DMSA_VAL/images\\0007.jpg",
+        "answer": "The left kidney appears to have an injury, while the right kidney shows scarring. The comprehensive evaluation indicates that the patient has acute pyelonephritis."
+    },
+    {
+        "image": "D:/maskrcnn/datasets/extra_DMSA_VAL/images\\0008.jpg",
+        "answer": "The left kidney appears to be normal, while the right kidney is damaged, indicating an abnormal kidney. The overall assessment suggests that the patient has acute pyelonephritis."
+    },
+    {
+        "image": "D:/maskrcnn/datasets/extra_DMSA_VAL/images\\0009.jpg",
+        "answer": "The left kidney appears to have scarring, which is an abnormal finding. The right kidney, on the other hand, is normal. Based on the provided information, the patient has acute pyelonephritis (APN)."
+    },
+    {
+        "image": "D:/maskrcnn/datasets/extra_DMSA_VAL/images\\0010.jpg",
+        "answer": "The left kidney shows normal imaging findings. The lower pole of the right kidney demonstrates decreased radiotracer uptake, indicating an abnormal kidney. Based on these findings, the patient is diagnosed with acute pyelonephritis (APN)."
+    },
+    {
+        "image": "D:/maskrcnn/datasets/extra_DMSA_VAL/images\\0011.jpg",
+        "answer": "The left kidney appears to be normal, while the right kidney shows scarring and is abnormal. Overall assessment indicates the patient has acute pyelonephritis."
+    },
+    {
+        "image": "D:/maskrcnn/datasets/extra_DMSA_VAL/images\\0012.jpg",
+        "answer": "The left kidney appears to have scarring, which is an abnormality. The right kidney, on the other hand, is normal. Based on the provided information, the patient has acute pyelonephritis (APN)."
+    },
+    {
+        "image": "D:/maskrcnn/datasets/extra_DMSA_VAL/images\\0013.jpg",
+        "answer": "The left kidney shows diffuse sparse distribution, which is classified as an abnormal kidney. The right kidney demonstrates sparse distribution in its upper pole, also classified as an abnormal kidney. Based on the provided information, the patient is diagnosed with acute pyelonephritis (APN)."
+    },
+    {
+        "image": "D:/maskrcnn/datasets/extra_DMSA_VAL/images\\0014.jpg",
+        "answer": "The left kidney exhibits morphological abnormalities with multifocal areas of decreased and defective radioactive uptake, classified as an abnormal kidney. The right kidney also demonstrates morphological abnormalities with multifocal areas of decreased and defective radioactive uptake, also classified as an abnormal kidney. Based on the comprehensive analysis, the patient is diagnosed with acute pyelonephritis (APN)."
+    },
+    {
+        "image": "D:/maskrcnn/datasets/extra_DMSA_VAL/images\\0015.jpg",
+        "answer": "The left kidney appears to be normal, while the right kidney shows parenchymal damage, which is indicative of an abnormal kidney. The overall assessment suggests that the patient has acute pyelonephritis."
+    },
+    {
+        "image": "D:/maskrcnn/datasets/extra_DMSA_VAL/images\\0016.jpg",
+        "answer": "The left kidney appears to have scarring, which is an abnormality. The right kidney, on the other hand, is normal. Based on the provided information, the patient has acute pyelonephritis (APN)."
+    },
+    {
+        "image": "D:/maskrcnn/datasets/extra_DMSA_VAL/images\\0017.jpg",
+        "answer": "The left kidney appears to be normal, while the right kidney is also normal. The overall assessment indicates that the patient does not have acute pyelonephritis."
+    },
+    {
+        "image": "D:/maskrcnn/datasets/extra_DMSA_VAL/images\\0018.jpg",
+        "answer": "The left kidney appears to have a small patchy area of reduced radioactivity in the medial aspect of the lower pole, which is indicative of an abnormal kidney. Similarly, the upper pole of the right kidney shows reduced radioactivity, also indicative of an abnormal kidney. Based on these findings, the patient is diagnosed with acute pyelonephritis (APN)."
+    },
+    {
+        "image": "D:/maskrcnn/datasets/extra_DMSA_VAL/images\\0019.jpg",
+        "answer": "The left kidney appears to have radioactive defects in the upper and lower poles, which may indicate an abnormality. The right kidney, on the other hand, appears normal. Based on these findings, the patient is diagnosed with acute pyelonephritis (APN)."
+    },
+    {
+        "image": "D:/maskrcnn/datasets/extra_DMSA_VAL/images\\0020.jpg",
+        "answer": "The left kidney appears to have scarring, which is an abnormal finding. The right kidney, on the other hand, is normal. Based on the provided information, the patient is diagnosed with acute pyelonephritis (APN)."
+    },
+    {
+        "image": "D:/maskrcnn/datasets/extra_DMSA_VAL/images\\0021.jpg",
+        "answer": "The left kidney appears to have scarring, which is an abnormality. The right kidney also shows signs of scarring. Based on the provided information, the patient is diagnosed with acute pyelonephritis (APN)."
+    },
+    {
+        "image": "D:/maskrcnn/datasets/extra_DMSA_VAL/images\\0022.jpg",
+        "answer": "The left kidney appears to be abnormal, with a scar and abnormal kidney. The right kidney also shows an abnormal appearance. Comprehensive evaluation suggests the patient has acute pyelonephritis."
+    },
+    {
+        "image": "D:/maskrcnn/datasets/extra_DMSA_VAL/images\\0023.jpg",
+        "answer": "The left kidney appears to be normal, while the right kidney is also normal. Based on the provided information, the patient does not have acute pyelonephritis."
+    },
+    {
+        "image": "D:/maskrcnn/datasets/extra_DMSA_VAL/images\\0024.jpg",
+        "answer": "The left kidney appears to be normal, while the right kidney shows scarring and is abnormal. The overall assessment indicates that the patient has acute pyelonephritis."
+    },
+    {
+        "image": "D:/maskrcnn/datasets/extra_DMSA_VAL/images\\0025.jpg",
+        "answer": "The left kidney appears to have a scar and is abnormal. The right kidney also has a scar and is abnormal. The comprehensive evaluation indicates that the patient has acute pyelonephritis."
+    },
+    {
+        "image": "D:/maskrcnn/datasets/extra_DMSA_VAL/images\\0026.jpg",
+        "answer": "The left kidney appears to have reduced radioactivity in both the upper and lower poles, which is indicative of an abnormal kidney. Similarly, the right kidney also shows reduced radioactivity in both the upper and lower poles, suggesting an abnormal kidney as well. Based on the comprehensive analysis, the patient is diagnosed with acute pyelonephritis."
+    },
+    {
+        "image": "D:/maskrcnn/datasets/extra_DMSA_VAL/images\\0027.jpg",
+        "answer": "The left kidney appears to be normal, while the right kidney demonstrates sparse radioactive distribution at its upper pole, which is indicative of an abnormal kidney. Based on the comprehensive evaluation, the patient is diagnosed with acute pyelonephritis (APN)."
+    },
+    {
+        "image": "D:/maskrcnn/datasets/extra_DMSA_VAL/images\\0028.jpg",
+        "answer": "The left kidney exhibits uneven radioactive distribution and is categorized as an abnormal kidney. The right kidney also demonstrates uneven radioactive distribution and is considered an abnormal kidney. As a comprehensive assessment, this patient is diagnosed with acute pyelonephritis (APN)."
+    },
+    {
+        "image": "D:/maskrcnn/datasets/extra_DMSA_VAL/images\\0029.jpg",
+        "answer": "The left kidney appears normal, while the right kidney also appears normal. Based on the provided information, the patient does not have acute pyelonephritis."
+    },
+    {
+        "image": "D:/maskrcnn/datasets/extra_DMSA_VAL/images\\0030.jpg",
+        "answer": "I cannot provide specific details from the text information, but I will analyze the provided SPECT imaging data to evaluate the health status of both kidneys and determine if the patient has acute pyelonephritis."
+    },
+    {
+        "image": "D:/maskrcnn/datasets/extra_DMSA_VAL/images\\0031.jpg",
+        "answer": "The left kidney appears to have sparse radioactive distribution, which is considered an abnormal kidney. The right kidney has multifocal areas of sparse distribution and defects, also classified as an abnormal kidney. Based on these findings, the patient is diagnosed with acute pyelonephritis (APN)."
+    },
+    {
+        "image": "D:/maskrcnn/datasets/extra_DMSA_VAL/images\\0032.jpg",
+        "answer": "The left kidney appears to be normal, with no significant abnormalities detected. However, the right kidney shows sparse radioactive distribution at the poles, which indicates an abnormal kidney. Based on these findings, the patient is diagnosed with acute pyelonephritis."
+    },
+    {
+        "image": "D:/maskrcnn/datasets/extra_DMSA_VAL/images\\0033.jpg",
+        "answer": "The left kidney appears to be normal, while the right kidney shows scarring and is abnormal. The overall assessment indicates that the patient has acute pyelonephritis."
+    },
+    {
+        "image": "D:/maskrcnn/datasets/extra_DMSA_VAL/images\\0034.jpg",
+        "answer": "The left kidney shows uneven radioactive distribution and is considered abnormal. Similarly, the right kidney also exhibits uneven radioactive distribution and is likewise categorized as abnormal. Based on the combined assessment, this patient is diagnosed with acute pyelonephritis (APN)."
+    },
+    {
+        "image": "D:/maskrcnn/datasets/extra_DMSA_VAL/images\\0035.jpg",
+        "answer": "The left kidney appears to be normal, while the right kidney shows scarring and is abnormal. The overall assessment indicates that the patient has acute pyelonephritis."
+    },
+    {
+        "image": "D:/maskrcnn/datasets/extra_DMSA_VAL/images\\0036.jpg",
+        "answer": "The left kidney appears to be normal, while the right kidney shows upper and lower poles with reduced radioactive distribution. Based on this information, the patient is diagnosed with acute pyelonephritis (APN)."
+    },
+    {
+        "image": "D:/maskrcnn/datasets/extra_DMSA_VAL/images\\0037.jpg",
+        "answer": "The left kidney appears to have scarring, which is an abnormality. The right kidney, on the other hand, is normal. Based on the provided information, the patient has acute pyelonephritis (APN)."
+    },
+    {
+        "image": "D:/maskrcnn/datasets/extra_DMSA_VAL/images\\0038.jpg",
+        "answer": "The left kidney appears to be normal, while the right kidney shows defects in radionuclide distribution at the upper and lower poles, indicating an abnormal kidney. Based on comprehensive considerations, the patient is diagnosed with acute pyelonephritis (APN)."
+    },
+    {
+        "image": "D:/maskrcnn/datasets/extra_DMSA_VAL/images\\0039.jpg",
+        "answer": "The left kidney appears to be small, with uneven and sparse radionuclide distribution. This suggests that there may be some abnormalities or dysfunction in the left kidney. The right kidney, on the other hand, is normal. Based on the provided information, the patient is diagnosed with acute pyelonephritis (APN)."
+    },
+    {
+        "image": "D:/maskrcnn/datasets/extra_DMSA_VAL/images\\0040.jpg",
+        "answer": "The left kidney shows sparse radioactive distribution, which indicates an abnormal kidney. The right kidney demonstrates multifocal sparse distribution, also indicating an abnormal kidney. Based on these findings, the patient is diagnosed with acute pyelonephritis (APN)."
+    },
+    {
+        "image": "D:/maskrcnn/datasets/extra_DMSA_VAL/images\\0041.jpg",
+        "answer": "The left kidney appears to be normal, while the right kidney is injured and is an abnormal kidney. The overall assessment indicates that the patient has acute pyelonephritis."
+    },
+    {
+        "image": "D:/maskrcnn/datasets/extra_DMSA_VAL/images\\0042.jpg",
+        "answer": "The left kidney appears to have scarring, which is an abnormal finding. The right kidney, on the other hand, is normal. Based on the provided information, the patient is diagnosed with acute pyelonephritis (APN)."
+    },
+    {
+        "image": "D:/maskrcnn/datasets/extra_DMSA_VAL/images\\0043.jpg",
+        "answer": "The left kidney appears to be within normal limits, while the right kidney shows diffuse sparse radiotracer distribution, indicating an abnormal kidney. Based on the comprehensive assessment, the patient is diagnosed with acute pyelonephritis (APN)."
+    },
+    {
+        "image": "D:/maskrcnn/datasets/extra_DMSA_VAL/images\\0044.jpg",
+        "answer": "The left kidney appears to have an injury, while the right kidney shows scarring. The comprehensive evaluation indicates that the patient has acute pyelonephritis."
+    },
+    {
+        "image": "D:/maskrcnn/datasets/extra_DMSA_VAL/images\\0045.jpg",
+        "answer": "The left kidney shows sparse distribution and is classified as an abnormal kidney. The right kidney appears normal. Based on the available information, the patient is diagnosed with acute pyelonephritis (APN)."
+    },
+    {
+        "image": "D:/maskrcnn/datasets/extra_DMSA_VAL/images\\0046.jpg",
+        "answer": "The left kidney appears to be normal, while the right kidney is small with uneven and sparse radioactive distribution. Based on the comprehensive consideration, the patient is diagnosed with acute pyelonephritis (APN)."
+    },
+    {
+        "image": "D:/maskrcnn/datasets/extra_DMSA_VAL/images\\0047.jpg",
+        "answer": "The left kidney appears to be normal, while the right kidney demonstrates multiple areas of reduced radiotracer uptake and defects. Based on the comprehensive assessment, the patient is diagnosed with acute pyelonephritis (APN)."
+    },
+    {
+        "image": "D:/maskrcnn/datasets/extra_DMSA_VAL/images\\0048.jpg",
+        "answer": "The left kidney appears to be abnormal, with a diagnosis of acute pyelonephritis. The right kidney also shows abnormalities, but further analysis is needed to determine the exact nature of the abnormalities and the presence of acute pyelonephritis."
+    },
+    {
+        "image": "D:/maskrcnn/datasets/extra_DMSA_VAL/images\\0049.jpg",
+        "answer": "The left kidney appears to have scarring, which is an abnormal finding. The right kidney, on the other hand, is normal. Based on the provided information, the patient is diagnosed with acute pyelonephritis (APN)."
+    },
+    {
+        "image": "D:/maskrcnn/datasets/extra_DMSA_VAL/images\\0050.jpg",
+        "answer": "The left kidney appears to be normal, while the right kidney shows scarring and is abnormal. The overall assessment indicates that the patient has acute pyelonephritis."
+    }
+]
